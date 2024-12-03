@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 2rem;
+}
+
+.nav-item{
+    padding-left: 2rem;
+    margin-left: 2rem;
+}
+
+#loginpage{
+    background-color: green;
+    color: white;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    
+}
+#loginpage:hover{
+    background-color: rgb(60, 229, 60);
+}
+
+.collapse_navbar-collapse{
+    float: right;
+}
+
+.hero{
+    background-image: url("D:\ClassRoom Seating Arrangement\college_image.jpg") ;
+}
+

@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+    margin: 20px; /* Adds margin around the body */
+    text-align: center; /* Centers text alignment */
+    background-color: #f0f0f0; /* Light grey background for the body */
+}
+
+/* Styles for the controls section */
+.controls {
+    margin-bottom: 20px; /* Space below the controls */
+    padding: 20px; /* Padding inside the controls */
+    /* background-image: url("D:/ClassRoom Seating Arrangement/background_class.jpg"); Background image */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    border-radius: 10px; /* Rounded corners for the controls */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Styles for input fields and buttons within controls */
+.controls input, .controls button {
+    margin: 5px; /* Space around input fields and buttons */
+    padding: 10px; /* Padding inside input fields and buttons */
+    border: 1px solid #ccc; /* Light grey border for inputs and buttons */
+    border-radius: 5px; /* Rounded corners for inputs and buttons */
+    font-size: 16px; /* Font size for inputs and buttons */
+}
+
+/* Styles for the seating chart container */
+.seating-chart {
+    display: grid; /* Uses grid layout for seating arrangement */
+    gap: 10px; /* Space between grid items */
+    margin: 20px auto; /* Centering the seating chart with margin */
+    max-width: 90%; /* Maximum width of the seating chart */
+    /* background-color: aliceblue; */
+}
+
+/* Styles for each seat in the seating chart */
+.seat {
+    width: 50px; /* Fixed width for each seat */
+    height: 50px; /* Fixed height for each seat */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+    border: 1px solid #000; /* Black border for each seat */
+    background-color: #f9f9f9; /* Light grey background for seats */
+    font-weight: bold; /* Bold text for seat numbers */
+    border-radius: 5px; /* Rounded corners for seats */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+/* Hover effect for seats */
+.seat:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the seat on hover */
+}
+
+/* Styles for occupied seats */
+.seat.occupied {
+    background-color: #4caf50; /* Green background for occupied seats */
+    color: white; /* White text for occupied seats */
+}

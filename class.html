@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Seating Arrangement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Classroom Seating Arrangement</h1>
+    <div class="controls">
+        <label>Number of Rows: <input type="number" id="rows" min="1" placeholder="Rows"></label>
+        <label>Number of Columns: <input type="number" id="columns" min="1" placeholder="Columns"></label>
+        <label>Total Students: <input type="number" id="students" min="0" placeholder="Students"></label>
+        <button onclick="generateSeating()">Generate Seating Chart</button>
+    </div>
+    <div id="seating-chart" class="seating-chart"></div>
+    <script src="script.js"></script>
+</body>
+</html>
